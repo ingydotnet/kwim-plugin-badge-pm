@@ -1,7 +1,7 @@
 =meta: 0.0.1
 
 name: Kwim-Plugin-badge
-version: 0.0.2
+version: 0.0.3
 abstract: Kwim Badge Image Support
 homepage: http://kwim.org
 
@@ -20,9 +20,9 @@ requires:
   Kwim: 0.0.13
 
 devel:
-  git: git@github.org/ingydotnet/kwim-plugin-badge-pm
-  irc: irc.freenode.net/kwim
-  bug: https://github.com/ingydotnet/kwim-plugin-badge-pm/issues/
+  git: https://github.com/ingydotnet/kwim-plugin-badge-pm
+  bug: https://github.com/ingydotnet/kwim-plugin-badge-pm/issues
+  irc: irc.freenode.net#swimtext
 
 =cpan:
   include_testml: 1
@@ -30,4 +30,4 @@ devel:
 =travis:
   type: perl
   testml: yes
-  irc: irc.freenode.net#kwim
+  irc: irc.freenode.net#swimtext

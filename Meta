@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: Kwim-Plugin-badge
-version: 0.0.5
+version: 0.0.6
 abstract: Kwim Badge Image Support
 homepage: http://kwim.org
 language: perl
@@ -27,6 +27,3 @@ requires:
 
 =zild:
   include_testml: 1
-
-=travis:
-  testml: yes

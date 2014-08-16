@@ -1,5 +1,5 @@
 package Kwim::Plugin::badge;
-our $VERSION = '0.0.4';
+our $VERSION = '0.0.5';
 
 package Kwim::Pod;
 

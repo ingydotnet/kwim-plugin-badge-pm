@@ -1,7 +1,8 @@
 package Kwim::Plugin::badge;
-our $VERSION = '0.0.6';
+our $VERSION = '0.0.7';
 
-package Kwim::Pod;
+package
+Kwim::Pod;
 
 sub phrase_func_badge {
     my ($self, $args) = @_;
@@ -41,7 +42,8 @@ sub _badge_coveralls {
     qq{<a href="https://coveralls.io/r/$owner/$repo?branch=master"><img src="https://coveralls.io/repos/$owner/$repo/badge.png" alt="$repo"></a>};
 }
 
-package Kwim::Markdown;
+package
+Kwim::Markdown;
 
 sub phrase_func_badge {
     my ($self, $args) = @_;
